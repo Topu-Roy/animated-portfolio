@@ -9,8 +9,8 @@ export default function DimensionsWrapper({
   className?: string;
 }) {
   return (
-    <section className={cn("mx-auto min-h-[75vh] max-w-[90rem]", className)}>
+    <div className={cn("mx-auto h-[75vh] max-w-[90rem]", className)}>
       {children}
-    </section>
+    </div>
   );
 }
